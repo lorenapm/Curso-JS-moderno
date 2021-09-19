@@ -4,9 +4,11 @@
 // = asigna un valor a la variable
 let a = 10,
   b = 10,
-  c = 10;
-let d = 10;
+  c = "Hola ";
+let d = "Spiderman";
 let x = a + b;
+
+const greeting = c + d;
 
 console.log(x);
 console.warn(x);
@@ -19,3 +21,7 @@ console.log("c", c);
 console.log({ a });
 console.log({ b });
 console.log({ c });
+
+console.table({ a, b, c, d, x });
+
+console.log(greeting);
