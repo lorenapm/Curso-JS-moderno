@@ -28,4 +28,6 @@ c = "Hola de nuevo";
 
 // console.log(greeting);
 
-const myName = "Lorena";
+//IMPORT: let y const no sobreescriben valores de las variables windows
+
+const outerWidth = 1000000;
