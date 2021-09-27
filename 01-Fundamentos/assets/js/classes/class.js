@@ -10,8 +10,21 @@ class Persona {
     this.code = code;
     this.phrase = phrase;
   }
+  //defino métodos
+  whoIam() {
+    console.log(`Soy ${this.name} y mi identidad es ${this.code}`);
+  }
+
+  myPhrase() {
+    this.whoIam();
+    console.log(`${this.name} say ${this.phrase}`);
+  }
 }
 
 const spiderman = new Persona("Peter Parker", "Spiderman", "I am your hero");
 const quique = new Persona("Quique", "SuperQuique", "I`m your child");
 console.log(spiderman, quique);
+
+spiderman.whoIam();
+quique.whoIam();
+spiderman.myPhrase();
