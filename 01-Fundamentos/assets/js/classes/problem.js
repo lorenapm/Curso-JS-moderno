@@ -1,4 +1,4 @@
-// OJO: esta forma es muy antigua, anterior a JS6
+// esta forma es muy antigua, anterior a JS6
 
 const fher = {
   firstname: "Lorena",
